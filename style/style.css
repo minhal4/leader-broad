@@ -1,0 +1,229 @@
+/* top player style  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #9F9F9F;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 113px;
+    background-color: #562EFF;
+    align-items: center;
+}
+nav img{
+    width: 40.42px;
+    height: 51px;
+    cursor: pointer;
+   
+}
+nav h3{
+    margin-left: 20px;
+
+   
+}
+.bored{
+    margin-left: 500px;
+    display: flex;
+}
+#ses{
+    background-color: #562EFF;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    font: large;
+
+    
+}
+#ses :hover{
+    color: crimson;
+    background-color: darkorange;
+}
+.bored img{
+    margin-left: 10px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    row-gap: 29px;
+    
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.ager-ta {
+    background-color: white;
+    width: 870px;
+    height: 626px;
+}
+section h2{
+    color: #562EFF;
+    padding-left: 30px;
+    font-size: 24px;
+}
+
+
+.manus img{
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+
+
+}
+.manus{
+    display: flex;
+    margin-right:30px ;
+    align-items: center;
+    padding-left: 30px;
+
+}
+.manus h3{
+    margin-left:16px;
+    font-size: 18px;
+    cursor: pointer;
+}
+hr{
+    color: #D1D1D1;
+    margin:30px 50px;
+
+}
+/* top blogs */
+/* top blogs */
+/* top blogs */
+/* top blogs */
+/* top blogs */
+.thumbnail{
+    display: flex;
+    margin-left: 20px;
+}
+.thumbnail img{
+    width: 177px;
+    height: 117px;
+    cursor: pointer;
+}
+.blog-title {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.blog-title p{
+    color: #9F9F9F;
+}
+.blog{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 18px;
+}
+.blog .thumbnail a{
+    text-decoration: none;
+   
+}
+
+/* latest course */
+/* latest course */
+
+.new-kahini{
+    background-color: white;
+    width: 870px;
+    height: 362px;
+    margin-top:70px ;
+    
+}
+
+
+.fofi .course-img img{
+    width: 224px;
+    height: 104px;
+    margin-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10%;
+}
+.fofi .course-img .details{
+    color:#1E1E1E;
+    margin-top: 30px;
+    margin-left:30px;
+}
+.coffee{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#p{
+    margin-top: 2px;
+}
+.font-awesome{
+    display: flex;
+    
+}
+.rating{
+    color: #FFC014;
+}
+.rating-blank{
+    color: #AEAEAE;
+}
+.dibba{
+    display: flex;
+}
+.writed {
+    margin-left: 10px;
+    color: #A2A2A2;
+}
+.watch{
+    display: flex;
+    margin-left: 10px;
+    color: #FF4A60;
+    border: 1px solid #FF4A60 ;
+    border-radius: 35%;
+    background-color: #FFE4E8;
+    
+}
+.clock{
+    color: #FF4A60;
+}
+.du{
+    margin-left: 5px;
+}
+
+/* making it optimize for other devices */
+/* making it optimize for other devices */
+/* making it optimize for other devices */
+/* making it optimize for other devices */
+
+@media screen and (max-width: 688px) {
+    .ager-ta {
+        width: 100%;
+        height: auto;
+    }
+
+    .players,
+    .top-blogs,
+    .blog,
+    .thumbnail {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: white;
+        gap: 15px; /* Use gap instead of row-gap */
+    }
+
+    .new-kahini {
+        flex-direction: column; /* Adjust layout accordingly */
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .fofi .course-img img {
+        width: 70%; /* Make the image responsive */
+        height: auto;
+       
+    }
+    .coffee{
+        grid-template-columns: repeat(1,1fr);
+    }
+ 
+   
+}
+
